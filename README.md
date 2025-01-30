@@ -21,4 +21,8 @@ to make your moves. The grid highlights the current player's turn, ensuring a se
 # Technologies Used
 - HTML
 - CSS
-- JavaScript (Factory Functions and Module Pattern)
+- JavaScript 
+
+# ScreenShot
+
+[image alt]([image alt](https:/Lgithub.com/pacificregmi/Website-For-App/blob/main/screenshot.jpg?raw=true))
