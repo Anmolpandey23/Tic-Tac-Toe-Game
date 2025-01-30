@@ -25,4 +25,4 @@ to make your moves. The grid highlights the current player's turn, ensuring a se
 
 # ScreenShot
 
-[image alt]([image alt](https:/Lgithub.com/pacificregmi/Website-For-App/blob/main/screenshot.jpg?raw=true))
+![image alt](https://github.com/Anmolpandey23/Tic-Tac-Toe-Game/blob/512da4cfd04877c774af96b901e60f1f22a85b00/Tic-Tac-Toe.png)
