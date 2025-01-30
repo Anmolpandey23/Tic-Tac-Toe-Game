@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    text-align: center;
+    overflow: hidden;
+    background-image: url(BG.jpeg);
+    background-size: cover;
+    
+}
+
+.container{
+    height: 70vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgb(0,0,0,0.2);
+    font-size: 8vmin;
+    color: red;
+    background-color: white;
+    cursor: pointer;
+}
+
+#reset{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #115751;
+    color: aliceblue;
+    border-radius: 1rem;
+    border: none;
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #115751;
+    color: aliceblue;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg{
+    color: azure;
+    font-size: 8vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    gap: 4rem;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    gap: 4rem;
+    
+}
+
+.hide{
+    display: none;
+}
+
+.settings {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    margin-top: 20px;
+}
+
+#start-game {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start-game:hover {
+    background-color: #45a049;
+}
+
+#player1-name, #player2-name{
+    
+    padding: 10px;
+    border-radius: 1rem;
+}
+
+#player1-symbol, #player2-symbol {
+    
+    padding: 5px;
+    border-radius: 0.5rem;
+}
+
+#player1, #player2, #player{
+
+    color:white;
+    font-weight: bolder;
+    /* -webkit-text-stroke: 1px #000000; */
+}
+
+#Name{
+    margin-top: 30px;
+    color: white;
+    font-weight: bolder;
+}
+
+#msg{
+    color: white;
+    font-weight: bolder;
+    animation: blinkAnimation 2s step-start infinite;
+}
+
+@keyframes blinkAnimation {
+    0% {
+        opacity: 1;  
+    }
+    50% {
+        opacity: 0;  
+    }
+    100% {
+        opacity: 1;  
+    }
+}
+
